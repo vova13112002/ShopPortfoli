@@ -11,9 +11,14 @@
 
 .container {}
 
-.nav {}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 95px;
+}
 
 .menu {
+
   &__list {}
 
   &__list-item {}
@@ -25,9 +30,17 @@
   &__list-img {}
 }
 
-.menu-left {}
+.menu-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 39px;
+}
 
-.menu-right {}
+.menu-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 45px;
+}
 
 
 
@@ -118,4 +131,3 @@
 
 /* Мегавеликі девайси (великі десктопи, >= 1200px) */
 @media (min-width: 1200px) {}
-
